@@ -1,22 +1,20 @@
 import CSS from "../../assets/images/skills/css.svg";
-import Firebase from "../../assets/images/skills/firebase.svg";
 import Git from "../../assets/images/skills/git.svg";
 import Github from "../../assets/images/skills/github.svg";
 import Gitlab from "../../assets/images/skills/gitlab.svg";
 import HTML from "../../assets/images/skills/html.svg";
 import JavaScript from "../../assets/images/skills/javascript.svg";
 import MYSQL from "../../assets/images/skills/mysql.svg";
-import Netlify from "../../assets/images/skills/netlify.svg";
 import NextJS from "../../assets/images/skills/nextjs.svg";
-import NPM from "../../assets/images/skills/npm.svg";
-import PHP from "../../assets/images/skills/php.svg";
 import React from "../../assets/images/skills/react.svg";
-import Redux from "../../assets/images/skills/redux.svg";
-import SASS from "../../assets/images/skills/sass.svg";
-import TailwindCSS from "../../assets/images/skills/tailwindcss.svg";
-import TypeScript from "../../assets/images/skills/typescript.svg";
-import Vercel from "../../assets/images/skills/vercel.svg";
 import VSCode from "../../assets/images/skills/vscode.svg";
+import C from "../../assets/images/skills/C.svg";
+import java from "../../assets/images/skills/java.svg";
+import jmeter from "../../assets/images/skills/jmeter.svg";
+import python from "../../assets/images/skills/python.svg";
+import rlang from "../../assets/images/skills/r-lang.svg";
+import selenium from "../../assets/images/skills/selenium.svg";
+
 
 const skills = [
   {
@@ -32,24 +30,24 @@ const skills = [
     text: "JavaScript",
   },
   {
-    image: SASS,
-    text: "SASS",
+    image: C,
+    text: "C",
   },
   {
-    image: TailwindCSS,
-    text: "TailwindCSS",
+    image: java,
+    text: "java",
   },
   {
     image: React,
     text: "React.js",
   },
   {
-    image: Redux,
-    text: "Redux",
+    image: jmeter,
+    text: "jmeter",
   },
   {
-    image: TypeScript,
-    text: "TypeScript",
+    image: python,
+    text: "Python",
   },
   {
     image: NextJS,
@@ -68,33 +66,22 @@ const skills = [
     text: "Gitlab",
   },
   {
-    image: NPM,
-    text: "NPM",
+    image: rlang,
+    text: "R",
   },
   {
-    image: PHP,
-    text: "PHP",
+    image: selenium,
+    text: "Selenium",
   },
   {
     image: MYSQL,
     text: "MYSQL",
   },
   {
-    image: Firebase,
-    text: "Firebase",
-  },
-  {
     image: VSCode,
     text: "VSCode",
   },
-  {
-    image: Vercel,
-    text: "Vercel",
-  },
-  {
-    image: Netlify,
-    text: "Netlify",
-  },
+
 ];
 
 export default skills;

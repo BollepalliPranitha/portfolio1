@@ -1,6 +1,5 @@
 import React from "react";
 import Connection from "../../assets/images/connections.svg";
-import Facebook from "../../assets/images/socials/facebook.png";
 import Instagram from "../../assets/images/socials/instagram.png";
 import LinkedIn from "../../assets/images/socials/linkedin.png";
 import "./Contact.scss";
@@ -22,26 +21,23 @@ const Contact = () => {
           <p className="app__contact-container_contacts-touch">
             - Get in Touch
           </p>
-          <h2>Let's create progress together</h2>
+         
           <p>
             For all inquiries, you can contact and message me on any of the
             specified social medias below.
           </p>
           <ul className="app__contact-container_contacts-links">
-            <a href="https://web.facebook.com/erys.mozo/" target="blank">
-              <img src={Facebook} alt="" />
-              Erys Mozo
-            </a>
-            <a href="https://www.instagram.com/_erysmozo/" target="blank">
+            
+            <a href="https://www.instagram.com/bollepalli_pranitha/" target="blank">
               <img src={Instagram} alt="" />
-              _erysmozo
+              _Pranitha
             </a>
             <a
-              href="https://www.linkedin.com/in/erys-mozo-280190230/"
+              href="https://www.linkedin.com/in/pranitha-bollepalli-3304b8194/"
               target="blank"
             >
               <img src={LinkedIn} alt="" />
-              Erys Mozo
+              Pranitha Bollepalli
             </a>
           </ul>
         </div>

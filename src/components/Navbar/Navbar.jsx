@@ -24,6 +24,7 @@ const Menu = () => {
       <li>
         <a href="#contacts">Contacts</a>
       </li>
+      
     </>
   );
 };
@@ -55,7 +56,7 @@ const Navbar = () => {
     <nav className="app__navbar">
       <div className="app__navbar-container">
         <div className="app__navbar-container_logo">
-          <p>Erys</p>
+          <p>Pranitha</p>
         </div>
         <ul className="app__navbar-container_navlinks">
           <Menu />
@@ -83,14 +84,12 @@ const Navbar = () => {
         >
           <Menu />
           <div className="app__navbar-container_mobilelinks-socials">
-            <a href="https://web.facebook.com/erys.mozo/" target="blank">
-              <img src={Facebook} alt="Facebook" />
-            </a>
-            <a href="https://www.instagram.com/_erysmozo/" target="blank">
+            
+            <a href="https://www.instagram.com/bollepalli_pranitha/" target="blank">
               <img src={Instagram} alt="Instagram" />
             </a>
             <a
-              href="https://www.linkedin.com/in/erys-mozo-280190230/"
+              href="https://www.linkedin.com/in/pranitha-bollepalli-3304b8194/"
               target="blank"
             >
               <img src={LinkedIn} alt="LinkedIn" />

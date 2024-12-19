@@ -2,17 +2,23 @@ import React from "react";
 import CertificateCard from "./CertificateCard";
 import ProjectDetails, {
   CSScertificate,
-  FCC,
-  Java,
-  PHP,
+  Automation,
+  C,
+  campus,
+  devops,
   Python,
-  ResponsiveWeb,
+  epam,
+  globalgrad,
+  html,
+  js,
+  pythonDs,
+  react
 } from "./imports";
 import "./Projects.scss";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
-  const certificates = [CSScertificate, FCC, ResponsiveWeb, Java, PHP, Python];
+  const certificates = [CSScertificate, Automation, C, devops, Python, campus, epam, globalgrad, html, js, pythonDs, react];
 
   return (
     <section
