@@ -33,24 +33,7 @@ const Skills = () => {
         </p> */}
 
         <p className="app__skills-title_content">
-          As of this moment I'm currently learning best coding principle and
-          stack such as{" "}
-          <a href="https://nextjs.org/" target="_blank" className="app__links">
-            Next.js
-          </a>{" "}
-          and{" "}
-          <a
-            href="https://www.typescriptlang.org/"
-            target="_blank"
-            className="app__links"
-          >
-            TypeScript
-          </a>
-          <p>
-            Soon enough I will learn Backend Development to become a Fullstack
-            Developer.
-          </p>
-        </p>
+         </p>
 
         <p className="app__skills-title_content">
           These are the Tech Stack Tools I use as a developer in designing,

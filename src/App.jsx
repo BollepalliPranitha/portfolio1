@@ -10,6 +10,7 @@ import {
   Navbar,
   Projects,
   Skills,
+
 } from "./components";
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
       <Projects />
       <Contact />
       <Earphone />
+  
     </>
   );
 };

@@ -28,7 +28,7 @@ const Hero = () => {
           />
           <TypeAnimation
             cursor={false}
-            sequence={[2000, "Erys Mozo"]}
+            sequence={[2500, "Pranitha Bollepalli"]}
             wrapper="h1"
             repeat={1}
             className="app__hero-container_text-name"
@@ -36,7 +36,7 @@ const Hero = () => {
 
           <TypeAnimation
             cursor={false}
-            sequence={[3000, "I enjoy creating stuffs."]}
+            sequence={[3000, "Innovative Tech Enthusiast "]}
             wrapper="h2"
             repeat={1}
             className="app__hero-container_text-title"
@@ -45,11 +45,10 @@ const Hero = () => {
             cursor={false}
             sequence={[
               4500,
-              "I am a Front-End Developer",
-              500,
-              "I enjoy learning.tsx",
+            
+              "Open-Source Leader",
               1000,
-              "Let's learn from each other.",
+              "Bridging Research and Scalable Solutions",
             ]}
             wrapper="h3"
             repeat={Infinity}
